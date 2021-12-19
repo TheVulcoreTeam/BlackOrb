@@ -6,3 +6,9 @@
 script = ExtResource( 1 )
 
 [node name="Skin" type="Sprite" parent="."]
+
+[node name="Areas" type="Node2D" parent="."]
+
+[node name="Body" type="Area2D" parent="Areas"]
+
+[node name="Collision" type="CollisionShape2D" parent="Areas/Body"]
