@@ -29,6 +29,10 @@ _global_script_class_icons={
 config/name="Black Orb"
 config/icon="res://icon.png"
 
+[autoload]
+
+Signals="*res://Game/Signals.gd"
+
 [display]
 
 window/size/width=576
