@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "GPlayer",
+"language": "GDScript",
+"path": "res://Core/GPlayer/GPlayer.gd"
+} ]
+_global_script_class_icons={
+"GPlayer": ""
+}
+
 [application]
 
 config/name="Black Orb"
