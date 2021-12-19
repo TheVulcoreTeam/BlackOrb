@@ -4,11 +4,9 @@ var area_obj
 var heal_points = 2
 
 func _ready():
-	# Signals.connect("",self, "_heal_active")
-	# add _heal_active to endturn event
-	pass
+	Signals.connect("end_turn",self,"_on_end_turn")
 
-func _heal_active():
+func _on_end_turn(enum_turn):
 	if area_obj != null:
 		area_obj.data.heal(heal_points)
 
