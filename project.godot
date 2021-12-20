@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "GPlayer",
 "language": "GDScript",
 "path": "res://Core/GPlayer/GPlayer.gd"
+}, {
+"base": "Node",
+"class": "RPGData",
+"language": "GDScript",
+"path": "res://Core/RPGData/RPGData.gd"
 } ]
 _global_script_class_icons={
 "GPlace": "",
-"GPlayer": ""
+"GPlayer": "",
+"RPGData": ""
 }
 
 [application]
