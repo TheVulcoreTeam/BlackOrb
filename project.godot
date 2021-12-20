@@ -23,11 +23,17 @@ _global_script_classes=[ {
 "class": "RPGData",
 "language": "GDScript",
 "path": "res://Core/RPGData/RPGData.gd"
+}, {
+"base": "Node",
+"class": "main_menu",
+"language": "GDScript",
+"path": "res://Game/Mains/global_main.gd"
 } ]
 _global_script_class_icons={
 "GPlace": "",
 "GPlayer": "",
-"RPGData": ""
+"RPGData": "",
+"main_menu": ""
 }
 
 [application]
@@ -45,8 +51,6 @@ window/size/width=576
 window/size/height=320
 window/size/test_width=1152
 window/size/test_height=640
-window/stretch/mode="2d"
-window/stretch/aspect="keep"
 
 [importer_defaults]
 
