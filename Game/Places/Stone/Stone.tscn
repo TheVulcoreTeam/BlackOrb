@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Core/GPlace/GPlace.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Game/Places/Regen/Regen.gd" type="Script" id=2]
+[ext_resource path="res://Game/Places/Stone/Stone.png" type="Texture" id=3]
+
+[node name="Regen" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Sprite" parent="." index="0"]
+texture = ExtResource( 3 )
+
+[connection signal="area_entered" from="Areas/Place" to="." method="_on_Place_area_entered"]
+[connection signal="area_exited" from="Areas/Place" to="." method="_on_Place_area_exited"]
