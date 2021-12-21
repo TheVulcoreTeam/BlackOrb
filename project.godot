@@ -10,6 +10,11 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Node2D",
+"class": "GEnemy",
+"language": "GDScript",
+"path": "res://Core/GEnemy/GEnemy.gd"
+}, {
+"base": "Node2D",
 "class": "GPlace",
 "language": "GDScript",
 "path": "res://Core/GPlace/GPlace.gd"
@@ -30,6 +35,7 @@ _global_script_classes=[ {
 "path": "res://Game/Mains/global_main.gd"
 } ]
 _global_script_class_icons={
+"GEnemy": "",
 "GPlace": "",
 "GPlayer": "",
 "RPGData": "",
